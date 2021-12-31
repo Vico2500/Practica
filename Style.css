@@ -1,0 +1,109 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+imagenfirefox{
+
+    margin: 30px;
+    width: 90%;
+}
+
+
+body{
+    height: 25rem;
+    width: 90%;
+    background-image: linear-gradient(rgb(17, 17, 43),  rgb(9, 21, 70),rgb(18, 42, 136));
+}
+        h1{
+            color:white;
+            letter-spacing:normal;
+            font-family:sans-serif;
+            font-size: 60px "arial";
+            line-height:0;
+
+        }
+
+        h2{
+            color: violet;
+            font-family: monospace;
+            font-size: 30px;
+        }
+
+        h3{color: antiquewhite;
+            font-family: monospace;
+            font-size: 20px;
+
+        }
+        .flex-box{
+            display: flex;
+            grid-column-start:span;
+            align-content:space-between;
+        }
+
+        .lista{
+            margin: 30px 10px;
+            font-size: 25px;
+            align-items: center;
+            display: block;
+        }    
+
+
+        .lista a{
+              text-decoration: none;
+              display: inline-block;  
+              color: violet;
+              
+        }    
+
+        .container {
+            justify-content: center;
+            display: flexbox inline-block;
+
+          }
+
+
+
+
+        h4{
+            color:white;
+            font-family: monospace;
+            font-size: 15px "arial";
+            line-height:0;
+        }
+
+        #caja {
+            width: 700px;
+            height:20px;
+            text-align-last:auto;
+        }
+
+        #titulo{
+            color:white;
+            letter-spacing:normal;
+            font-family:sans-serif;
+            font-size: 60px "arial";
+        }
+
+        #texto-uno {
+            float: left;
+            color: antiquewhite;
+            font-family: monospace;
+            font-size: 20px;
+        }
+        #texto-dos {
+            float: center;
+            color: antiquewhite;
+            font-family: monospace;
+            font-size: 20px;
+        }
+
+        #texto-tres {
+            float: right;
+            color: antiquewhite;
+            font-family: monospace;
+            font-size: 20px;
+        }
+
+        {}{}{}{}{}{}
